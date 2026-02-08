@@ -157,9 +157,9 @@ This is a personal portfolio project. If you find improvements or suggestions, t
 ## 📧 Contact
 
 For inquiries or collaborations:
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your-email@example.com
-- LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
+- GitHub: https://github.com/jarpaivan-wq
+- Email: jarpa.ivan@gmail.com
+- LinkedIn: https://www.linkedin.com/in/biexcel/
 
 ## 📄 License
 
