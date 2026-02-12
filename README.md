@@ -2,7 +2,7 @@
 
 ## 📝 Project Description
 
-Sales data analysis for a clothing e-commerce business using SQL. This project simulates a real-world scenario where an online business needs insights about its operations to make strategic decisions.
+Sales data analysis for a clothing e-commerce business using SQL to provide insights for strategic business decisions.
 
 ## 🎯 Objective
 
