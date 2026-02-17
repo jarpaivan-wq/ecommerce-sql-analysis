@@ -168,3 +168,50 @@ This project is open source and available under the MIT License.
 ---
 
 ⭐ If you find this project useful, please consider giving it a star on GitHub.
+
+
+## Appendix: Advanced Analytics Queries
+
+# Advanced Query 11: Products Above Category Average
+
+## 📊 Business Question
+Which products are performing above their category's average sales? This analysis helps identify star products within each category for inventory and marketing optimization.
+
+## 🎯 Technical Complexity
+**Level:** ⭐⭐⭐⭐ Advanced
+
+**Key Concepts Demonstrated:**
+- Multiple CTEs (3 levels)
+- JOINs between CTEs
+- Window functions with PARTITION BY
+- Complex filtering logic
+- Aggregations (SUM, AVG)
+
+## 💡 Query Structure
+
+### CTE1: Total Sales by Product
+Aggregates total units sold per product from order details.
+
+### CTE2: Category Average
+Calculates the average sales performance per category.
+
+### Final Query
+- Filters products selling above their category average
+- Ranks products within each category using RANK()
+- Orders by category and ranking
+
+## 📈 Output Columns
+- `categoria`: Product category
+- `nombre_producto`: Product name
+- `total_vendido`: Total units sold
+- `promedio_categoria`: Category average sales
+- `ranking_en_categoria`: Rank within category (1 = top performer)
+
+## 🎓 Business Value
+- **Inventory Management:** Focus stock on proven performers
+- **Marketing Strategy:** Promote products that outperform their category
+- **Product Development:** Understand what works in each segment
+- **Performance Benchmarking:** Compare products against category baseline
+
+## 🔗 File
+`ecommerce_4_products_above_category_average.sql`
